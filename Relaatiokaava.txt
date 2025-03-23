@@ -1,0 +1,20 @@
+Asiakas ({|asiakasnumero|}, sähköposti, puhelinnumero)  \
+Kanta_asiakkuus ({|asiakasnumero, id|}, pisteet)  \
+
+Kanta_asiakkuus.asiakasnumero -> Asiakas.asiakasnumero  \
+
+Tilaus ({|tilausnumero|}, hinta, tilauspvm, toimitustapa, osoite, asiakasnumero)  \
+Toimitustiedot ({|osoite|},  postinumero, maa) \
+
+Tilaus.asiakasnumero -> Asiakas.asiakasnumero \
+Tilaus.osoite -> Toimitustiedot.osoite \
+
+Tuote ({|tuotenumero|}, nimi, hinta, kuvaus, valmistaja, valmistusmaa)  \
+Tuote_kategoria ({|tuotenumero, kategoria|})  \
+Tuote_kategoria.tuotenumero -> Tuote.tuotenumero  \
+
+TuoteTilaus ({|tuotenumero, tilausnumero|}, määrä)  \
+TuoteTilaus.tuotenumero -> Tuote.tuotenumero  \
+TuoteTilaus.tilausnumero -> Tilaus.tilausnumero  \
+
+
