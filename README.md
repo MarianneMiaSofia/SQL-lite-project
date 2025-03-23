@@ -1,7 +1,7 @@
 # SQL-lite-project
 The school project, that I made for database course. It is a database for web store that sells dog's food and equipment and it contains fictional information about clients and orders.
 
-##Kuvaus tietokannasta
+## Kuvaus tietokannasta
 Dog's Heart on verkkokauppa, jossa myydään erilaisia
 lemmikkitarvikkeita koirille.
 
@@ -21,7 +21,7 @@ Kaikilla tuotteilla on tuotenumero, hinta, nimi, kuvaus,
 valmistaja, valmistusmaa. Tuote kuuluu aina johonkin kategoriaan
 (koiran vaatteet, ruokakulhot yms.).
 
-##Description of the database
+## Description of the database
 Dog's Heart is an online store that sells various pet supplies for dogs.
 
 Dog's Heart offers a selection of products that customers can order online. 
